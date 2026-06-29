@@ -1,0 +1,52 @@
+
+    <svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0B0A12"/>
+          <stop offset="50%" stop-color="#040206"/>
+          <stop offset="100%" stop-color="#0B0A12"/>
+        </linearGradient>
+        <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" fill="#8A2BE2" />
+        </marker>
+        <!-- Import Google Fonts inside SVG -->
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&amp;family=Forum&amp;display=swap');
+        </style>
+      </defs>
+      
+      <!-- Background -->
+      <rect width="800" height="600" fill="url(#bgGrad)"/>
+      <rect width="800" height="600" fill="none" stroke="#FF1493" stroke-width="4" opacity="0.4"/>
+      <circle cx="0" cy="0" r="300" fill="#FF1493" opacity="0.05" filter="blur(80px)"/>
+      <circle cx="800" cy="600" r="300" fill="#8A2BE2" opacity="0.05" filter="blur(80px)"/>
+
+      <!-- Body Content -->
+      
+        <text x="400" y="100" text-anchor="middle" font-family="'Forum', serif" font-size="28" fill="#FFFFFF" letter-spacing="2">Premium Architecture Highlights</text>
+        
+        <g transform="translate(100, 160)">
+          <!-- Card 1 -->
+          <rect x="0" y="0" width="280" height="120" rx="8" fill="#0A0813" stroke="#8A2BE2" stroke-dasharray="4 2"/>
+          <text x="30" y="40" font-family="'DM Sans', sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold">High Performance</text>
+          <text x="30" y="70" font-family="'DM Sans', sans-serif" font-size="12" fill="#999999">Sub-millisecond processing</text>
+          <text x="30" y="90" font-family="'DM Sans', sans-serif" font-size="12" fill="#999999">latencies under peak loads.</text>
+          
+          <!-- Card 2 -->
+          <rect x="320" y="0" width="280" height="120" rx="8" fill="#0A0813" stroke="#FF1493" stroke-dasharray="4 2"/>
+          <text x="350" y="40" font-family="'DM Sans', sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold">Serverless Native</text>
+          <text x="350" y="70" font-family="'DM Sans', sans-serif" font-size="12" fill="#999999">Zero maintenance, scale</text>
+          <text x="350" y="90" font-family="'DM Sans', sans-serif" font-size="12" fill="#999999">instantly to millions of requests.</text>
+
+          <!-- Card 3 -->
+          <rect x="0" y="150" width="600" height="80" rx="8" fill="#0B0A12" stroke="#8A2BE2"/>
+          <text x="30" y="45" font-family="'DM Sans', sans-serif" font-size="16" fill="#FFFFFF" font-weight="bold">Developer Ready Blueprint</text>
+          <text x="30" y="70" font-family="'DM Sans', sans-serif" font-size="12" fill="#999999">Includes structured CLI configs, API routes, and full setup guides.</text>
+        </g>
+      
+      
+      <!-- Footer Brand Info -->
+      <text x="50" y="550" font-family="'DM Sans', sans-serif" font-size="12" fill="#666666">DEVELOPER SCRIPT SERIES</text>
+      <text x="750" y="550" text-anchor="end" font-family="'DM Sans', sans-serif" font-size="12" fill="#FF1493">BY @SH20RAJ</text>
+    </svg>
+  
