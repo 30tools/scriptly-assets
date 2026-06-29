@@ -1,0 +1,40 @@
+
+    <svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0B0A12"/>
+          <stop offset="50%" stop-color="#040206"/>
+          <stop offset="100%" stop-color="#0B0A12"/>
+        </linearGradient>
+        <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" fill="#8A2BE2" />
+        </marker>
+        <!-- Import Google Fonts inside SVG -->
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&amp;family=Forum&amp;display=swap');
+        </style>
+      </defs>
+      
+      <!-- Background -->
+      <rect width="800" height="600" fill="url(#bgGrad)"/>
+      <rect width="800" height="600" fill="none" stroke="#FF1493" stroke-width="4" opacity="0.4"/>
+      <circle cx="0" cy="0" r="300" fill="#FF1493" opacity="0.05" filter="blur(80px)"/>
+      <circle cx="800" cy="600" r="300" fill="#8A2BE2" opacity="0.05" filter="blur(80px)"/>
+
+      <!-- Body Content -->
+      
+        <rect x="100" y="240" width="600" height="2" fill="#FF1493" opacity="0.3"/>
+        <text x="400" y="220" text-anchor="middle" font-family="'Forum', serif" font-size="52" fill="#FFFFFF" letter-spacing="4">SCRAPELY API</text>
+        <text x="400" y="280" text-anchor="middle" font-family="'DM Sans', sans-serif" font-size="18" fill="#8A2BE2" letter-spacing="2">WEB SCRAPER & METADATA WORKER</text>
+        
+        <!-- Central Graphic -->
+        <circle cx="400" cy="400" r="70" fill="none" stroke="#FF1493" stroke-width="3" opacity="0.6"/>
+        <circle cx="400" cy="400" r="50" fill="none" stroke="#8A2BE2" stroke-width="2" stroke-dasharray="10 5"/>
+        <path d="M380 400 L395 415 L425 385" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      
+      <!-- Footer Brand Info -->
+      <text x="50" y="550" font-family="'DM Sans', sans-serif" font-size="12" fill="#666666">DEVELOPER SCRIPT SERIES</text>
+      <text x="750" y="550" text-anchor="end" font-family="'DM Sans', sans-serif" font-size="12" fill="#FF1493">BY @SH20RAJ</text>
+    </svg>
+  
