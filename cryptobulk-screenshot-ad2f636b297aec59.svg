@@ -1,0 +1,50 @@
+
+    <svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#0D0E12"/>
+          <stop offset="50%" stop-color="#040206"/>
+          <stop offset="100%" stop-color="#0D0E12"/>
+        </linearGradient>
+        <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z" fill="#00FF7F" />
+        </marker>
+        <!-- Import Google Fonts inside SVG -->
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&amp;family=Forum&amp;display=swap');
+        </style>
+      </defs>
+      
+      <!-- Background -->
+      <rect width="800" height="600" fill="url(#bgGrad)"/>
+      <rect width="800" height="600" fill="none" stroke="#F7931A" stroke-width="4" opacity="0.4"/>
+      <circle cx="0" cy="0" r="300" fill="#F7931A" opacity="0.05" filter="blur(80px)"/>
+      <circle cx="800" cy="600" r="300" fill="#00FF7F" opacity="0.05" filter="blur(80px)"/>
+
+      <!-- Body Content -->
+      
+        <text x="400" y="100" text-anchor="middle" font-family="'Forum', serif" font-size="28" fill="#FFFFFF" letter-spacing="2">Operational Commands</text>
+        
+        <g transform="translate(150, 160)">
+          <!-- Command 1 -->
+          <rect x="0" y="0" width="500" height="60" rx="6" fill="#0D0E12" stroke="#F7931A" stroke-width="1"/>
+          <text x="30" y="36" font-family="monospace" font-size="16" fill="#00FF7F">/start</text>
+          <text x="150" y="35" font-family="'DM Sans', sans-serif" font-size="14" fill="#CCCCCC">Initializes service communication loop.</text>
+          
+          <!-- Command 2 -->
+          <rect x="0" y="80" width="500" height="60" rx="6" fill="#0D0E12" stroke="#F7931A" stroke-width="1"/>
+          <text x="30" y="116" font-family="monospace" font-size="16" fill="#00FF7F">/shorten</text>
+          <text x="150" y="115" font-family="'DM Sans', sans-serif" font-size="14" fill="#CCCCCC">Triggers the main script execution thread.</text>
+          
+          <!-- Command 3 -->
+          <rect x="0" y="160" width="500" height="60" rx="6" fill="#0D0E12" stroke="#F7931A" stroke-width="1"/>
+          <text x="30" y="196" font-family="monospace" font-size="16" fill="#00FF7F">/status</text>
+          <text x="150" y="195" font-family="'DM Sans', sans-serif" font-size="14" fill="#CCCCCC">Queries active database state.</text>
+        </g>
+      
+      
+      <!-- Footer Brand Info -->
+      <text x="50" y="550" font-family="'DM Sans', sans-serif" font-size="12" fill="#666666">DEVELOPER SCRIPT SERIES</text>
+      <text x="750" y="550" text-anchor="end" font-family="'DM Sans', sans-serif" font-size="12" fill="#F7931A">BY @SH20RAJ</text>
+    </svg>
+  
